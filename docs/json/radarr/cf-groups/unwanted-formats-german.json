@@ -97,6 +97,12 @@
       "trash_id": "bfd8eb01832d646a0a89c4deb46f8564",
       "required": false,
       "default": true
+    },
+    {
+      "name": "German DL (undefined)",
+      "trash_id": "6aad77771dabe9d3e9d7be86f310b867",
+      "required": false,
+      "default": true
     }
   ],
   "quality_profiles": {
