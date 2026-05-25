@@ -8,7 +8,7 @@
   "upgradeAllowed": true,
   "cutoff": "BR-DISK",
   "minFormatScore": 0,
-  "cutoffFormatScore": 35000,
+  "cutoffFormatScore": 25000,
   "minUpgradeFormatScore": 1,
   "language": "Any",
   "items": [
