@@ -233,6 +233,15 @@
       "fields": {
         "value": "^(MAGNUM-TEST)$"
       }
+    },
+    {
+      "name": "SECOND-TEST-GRP",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SECOND-TEST-GRP)$"
+      }
     }
   ]
 }
