@@ -334,6 +334,15 @@
       "fields": {
         "value": "^(BAD-TEST-GROUP)$"
       }
+    },
+    {
+      "name": "BAD-TEST-GROUP-V2",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BAD-TEST-GROUP-V2)$"
+      }
     }
   ]
 }
