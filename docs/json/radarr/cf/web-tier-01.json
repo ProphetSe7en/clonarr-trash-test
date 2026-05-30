@@ -269,6 +269,15 @@
       "fields": {
         "value": "^(VERIFY-RUN-3)$"
       }
+    },
+    {
+      "name": "AUGMENT-CHECK",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(AUGMENT-CHECK)$"
+      }
     }
   ]
 }
