@@ -325,6 +325,15 @@
       "fields": {
         "value": "^(ZNM)$"
       }
+    },
+    {
+      "name": "BAD-TEST-GROUP",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BAD-TEST-GROUP)$"
+      }
     }
   ]
 }
