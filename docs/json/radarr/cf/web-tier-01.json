@@ -242,6 +242,15 @@
       "fields": {
         "value": "^(SECOND-TEST-GRP)$"
       }
+    },
+    {
+      "name": "PHASE2-DEMO",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PHASE2-DEMO)$"
+      }
     }
   ]
 }
