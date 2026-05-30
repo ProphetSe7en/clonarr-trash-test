@@ -278,6 +278,24 @@
       "fields": {
         "value": "^(AUGMENT-CHECK)$"
       }
+    },
+    {
+      "name": "PENDING-DIFF-A",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PENDING-DIFF-A)$"
+      }
+    },
+    {
+      "name": "PENDING-DIFF-B",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PENDING-DIFF-B)$"
+      }
     }
   ]
 }
