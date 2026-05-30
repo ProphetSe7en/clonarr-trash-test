@@ -224,6 +224,15 @@
       "fields": {
         "value": 8
       }
+    },
+    {
+      "name": "MAGNUM-TEST",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MAGNUM-TEST)$"
+      }
     }
   ]
 }
