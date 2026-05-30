@@ -251,6 +251,15 @@
       "fields": {
         "value": "^(PHASE2-DEMO)$"
       }
+    },
+    {
+      "name": "VERIFY-RUN-2",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(VERIFY-RUN-2)$"
+      }
     }
   ]
 }
