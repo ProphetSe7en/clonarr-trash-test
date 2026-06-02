@@ -10,15 +10,6 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "ROUND4-UPSCALED",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(ROUND4-UPSCALED)\\b"
-      }
-    },
-    {
       "name": "AI Upscales",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
