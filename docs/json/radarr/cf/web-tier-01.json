@@ -10,6 +10,15 @@
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
+      "name": "DRIFT-TEST-01-NEW",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DRIFT-TEST-01-NEW)$"
+      }
+    },
+    {
       "name": "ABBIE",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
