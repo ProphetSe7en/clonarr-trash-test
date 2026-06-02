@@ -10,15 +10,6 @@
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
-      "name": "ROUND3-NEW",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(ROUND3-NEW)$"
-      }
-    },
-    {
       "name": "ABBIE",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,

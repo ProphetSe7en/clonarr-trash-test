@@ -13,7 +13,7 @@
       "negate": false,
       "required": true,
       "fields": {
-        "value": "^(FLUX|FLUX-INTERNAL)$"
+        "value": "^(FLUX)$"
       }
     }
   ]
