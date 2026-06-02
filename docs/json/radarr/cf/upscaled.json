@@ -10,6 +10,15 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
+      "name": "DRIFT-TEST-UPSCALED",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(DRIFT-TEST-UPSCALED)\\b"
+      }
+    },
+    {
       "name": "AI Upscales",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
