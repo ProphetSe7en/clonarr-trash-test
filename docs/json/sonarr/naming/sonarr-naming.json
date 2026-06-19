@@ -1,27 +1,27 @@
 {
   "season": {
-    "default": "Season {season:00} GATE6"
+    "default": "Season {season:00} GATE7"
   },
   "series": {
-    "default": "{Series TitleYear} GATE6",
-    "plex-imdb": "{Series TitleYear} {imdb-{ImdbId}} GATE6",
-    "plex-tvdb": "{Series TitleYear} {tvdb-{TvdbId}} GATE6",
-    "emby-imdb": "{Series TitleYear} [imdb-{ImdbId}] GATE6",
-    "emby-tvdb": "{Series TitleYear} [tvdb-{TvdbId}] GATE6",
-    "jellyfin-tvdb": "{Series TitleYear} [tvdbid-{TvdbId}] GATE6"
+    "default": "{Series TitleYear} GATE7",
+    "plex-imdb": "{Series TitleYear} {imdb-{ImdbId}} GATE7",
+    "plex-tvdb": "{Series TitleYear} {tvdb-{TvdbId}} GATE7",
+    "emby-imdb": "{Series TitleYear} [imdb-{ImdbId}] GATE7",
+    "emby-tvdb": "{Series TitleYear} [tvdb-{TvdbId}] GATE7",
+    "jellyfin-tvdb": "{Series TitleYear} [tvdbid-{TvdbId}] GATE7"
   },
   "episodes": {
     "standard": {
-      "default": "{Series TitleYear} - S{season:00}E{episode:00} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo VideoCodec]}{-Release Group} GATE6",
-      "original": "{Original Title} GATE6",
-      "p2p-scene": "{Series.CleanTitleYear}.S{season:00}E{episode:00}{.Episode.CleanTitle}{.Custom.Formats}{.Quality.Full}{.Mediainfo.AudioCodec}{.Mediainfo.AudioChannels}{.MediaInfo.VideoDynamicRangeType}{.Mediainfo.VideoCodec}{-Release Group} GATE6"
+      "default": "{Series TitleYear} - S{season:00}E{episode:00} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo VideoCodec]}{-Release Group} GATE7",
+      "original": "{Original Title} GATE7",
+      "p2p-scene": "{Series.CleanTitleYear}.S{season:00}E{episode:00}{.Episode.CleanTitle}{.Custom.Formats}{.Quality.Full}{.Mediainfo.AudioCodec}{.Mediainfo.AudioChannels}{.MediaInfo.VideoDynamicRangeType}{.Mediainfo.VideoCodec}{-Release Group} GATE7"
     },
     "daily": {
-      "default": "{Series TitleYear} - {Air-Date} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo VideoCodec]}{-Release Group} GATE6",
-      "original": "{Original Title} GATE6"
+      "default": "{Series TitleYear} - {Air-Date} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo VideoCodec]}{-Release Group} GATE7",
+      "original": "{Original Title} GATE7"
     },
     "anime": {
-      "default": "{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{MediaInfo AudioLanguages}{[MediaInfo VideoDynamicRangeType]}[{Mediainfo VideoCodec }{MediaInfo VideoBitDepth}bit]{-Release Group} GATE6"
+      "default": "{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle:90} {[Custom Formats]}{[Quality Full]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{MediaInfo AudioLanguages}{[MediaInfo VideoDynamicRangeType]}[{Mediainfo VideoCodec }{MediaInfo VideoBitDepth}bit]{-Release Group} GATE7"
     }
   }
 }
